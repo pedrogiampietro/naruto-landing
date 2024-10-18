@@ -594,7 +594,7 @@ function TestimonialCard({ quote, author }: { quote: string; author: string }) {
         <Star className="h-8 w-8 text-yellow-400" />
         <Star className="h-8 w-8 text-yellow-400" />
       </div>
-      <p className="mb-4 italic text-gray-600">"{quote}"</p>
+      <p className="mb-4 italic text-gray-600">{quote}</p>
       <p className="text-right font-semibold">- {author}</p>
     </div>
   )
